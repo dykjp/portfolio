@@ -1,0 +1,66 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0%;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-menu{
+list-style: none;
+display: flex;
+flex-direction: row;
+gap: 15px;
+color: white;
+
+}
+
+.container{
+    background-image:url("./images/jpbg.jpg") ;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    padding-right: 60px;
+ }
+ .logo{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .menu-item{
+    color: white;
+ }
+.menu-item-link{
+    text-decoration: none;
+    color: ghostwhite;
+}
+.menu-item-link:hover{
+    color: black;
+}
+.intro{
+    text-align: center;
+    margin-top: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.header1{
+     font-size: 60px;
+     color: whitesmoke;
+     margin: 0;
+     line-height: 90px;
+     
+    
+}
+.header2{
+    font-size: 30px;
+    color: whitesmoke;
+    margin: 0;
+    
+}

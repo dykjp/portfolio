@@ -1,0 +1,58 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0%;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+.logo{
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .navigation-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color:white;
+ }
+ .menu-item-link{
+    color: white;
+    text-decoration-line: none;
+ }
+ .menu-item-link:hover{
+    color: grey;
+ }
+ .title{
+    text-align: center;
+     margin: 0;
+     font-size: 40px;
+     font-family: cursive;
+     font-weight: lighter;
+     padding-top: 150px;
+     
+     
+    
+ }
+.about-me-content{
+
+ display: flex;
+ margin-left: 150px;
+ margin-right: 150px;
+ gap: 15px;
+ font-family: cursive;
+
+}
+.about-me-image{
+    width: 400px;
+    height: 280px;    
+}
